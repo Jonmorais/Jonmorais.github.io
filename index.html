@@ -4,36 +4,27 @@
     <meta charset="UTF-8">
     <title>Jonathan</title> 
     <style>
-        body 
-        {
-         margin: 0%;
-         padding: 0%; 
-         }
         .title-page {
-            text-shadow: 8px 4px 6px #0f0f0f;
             margin-right: 30%;
             margin-left: 30%;
-            padding: 6px 6px 6px 6px;  
+            padding: 6px 6px 6px 6px;
+            text-shadow: 8px 4px 6px rgba(245, 245, 245, 0.377);  
         }            
         #site 
         {
-         background-image: url(imagens/coffee.png);
+         background-image: url(imagens/squares.gif);
          background-position: 20%;
          background-size: cover;
          border: none;
-         color: black;   
+         color: whitesmoke;   
          font-family: Comfortaa,Helvetica, Arial;   
-         height: auto;   
-         margin: 0 px;
-         padding: 0 px;
-         width: 100%;
         } 
         #principal {
-            color: black;
+            color: whitesmoke;
             text-align: center;
         }
         #selfie{
-            box-shadow: 20px 20px 20px black;
+            box-shadow: 7px 7px 7px rgba(245, 245, 245, 0.267);
             border-radius: 50%;
         }
         #lista {
@@ -55,11 +46,20 @@
             padding: 0.5%;
             text-decoration: none;
         }
+        body 
+        {
+         height: auto;
+         margin: 0%;
+         margin-top: -25px;/*Fix the white space bug on  top*/
+         padding: 0%; 
+         
+        }
     </style>
 </head>
 <body>
 <div id="site">    
 <div id="principal">
+    <br><br>
     <h1  class="title-page" >Jonathan Morais</h1>
     <h2 class="title-page">Fullstack Web-Developer</h2>
     <img id="selfie" src="imagens/selfie.png" alt="Um homem moreno, com  barba e camiseta branca,sorrindo." width="300px">
@@ -72,7 +72,7 @@
 <div id="lista">
     <br><br>
 Lista de habilidades/características:
-<p id="Lista"> </p>
+<p id="lista"> </p>
 <ul>
     <li>HTML, CSS, Javascript</li>
     <li>Escrever</li>
@@ -85,7 +85,6 @@ Lista de habilidades/características:
 </div>
 <div id=links>
     <br><br>
-Meus links:
 <a class="link-style" href="https://linktr.ee/Jonmorais" target="_blank"><strong>Linktree</strong></a>
 <br><br>
 Índice:
