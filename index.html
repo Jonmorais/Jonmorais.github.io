@@ -6,13 +6,32 @@
     <style>
         body {
          margin: 0%;
-         padding: 0%; }
-        #site {
+         padding: 0%; 
+         }
+        .button 
+        {
+            background-color: #2f332f;
+            border: none;
+            border-radius: 45%;
+           
+            text-align: center;
+            display: inline-block;-
+            }
+        .title-page {
+            text-shadow: 8px 4px 6px #0f0f0f;
+            margin-right: 30%;
+            margin-left: 30%;
+            padding: 6px 6px 6px 6px;
+            
+        }            
+        #site 
+        {
          width: 100%;   
          height: auto;   
-         background-image: url(imagens/night.jpg);
+         background-image: url(imagens/coffee.png);
+         background-position: 20%;
          background-size: cover;
-         color: azure;
+         color: black;
          font-family: Helvetica, Arial;
          border: none;
          margin: 0 px;
@@ -23,8 +42,12 @@
         } 
         #principal {
             text-align: center;
-            color: azure;
+            color: black;
 
+        }
+        #selfie{
+            box-shadow: 20px 20px 20px black;
+            border-radius: 50%;
         }
         #lista {
             text-align: center;
@@ -53,9 +76,9 @@
 <body>
 <div id="site">    
 <div id="principal">
-    <h1>Jonathan de Morais Silva</h1>
-    <h2>Fullstack Web-Developer</h2>
-    <img  src="imagens/bbarbudo.png" alt="Um homem moreno, com  barba e camiseta branca,sorrindo." width="300px">
+    <h1  class="title-page" >Jonathan Morais</h1>
+    <h2 class="title-page">Fullstack Web-Developer</h2>
+    <img id="selfie" src="imagens/selfie.png" alt="Um homem moreno, com  barba e camiseta branca,sorrindo." width="300px">
     <h3>Apaixonado por tecnologias, animes, jogos no  geral e rpg.
     <br><br> Curto programar. Morando atualmente no Rio de Janeiro.
     </h3>
