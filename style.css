@@ -21,9 +21,6 @@
     box-shadow: 7px 7px 7px rgba(245, 245, 245, 0.267);
     border-radius: 50%;
 }
-#lista {
-    text-align: center;
-}
 #links {
     margin: auto;
     text-align: center;
@@ -46,5 +43,31 @@ body
  margin: 0%;
  margin-top: -25px;/*Fix the white space bug on  top*/
  padding: 0%; 
- 
+}
+#hard-skills {
+  background-color: rgba(51, 58, 58, 0.438);
+  max-width: 50%;
+  padding-left: 10px;
+}
+#soft-skills {
+  background-color: rgba(37, 37, 51, 0.336);
+  font-family: Oregano;
+  font-size: 200%;
+  letter-spacing: 0.05em;
+  word-spacing: 0.5em;
+  max-width: 50%;
+  padding: 10px 10px;
+  text-align: justify;
+}
+#second-line {
+  text-align: center;
+  background-color: aqua;
+}
+#lista {
+  display: flex;
+  flex-direction: row;  
+  
+}
+#python{
+  padding-left: 15px;
 }
