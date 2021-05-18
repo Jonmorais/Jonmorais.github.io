@@ -1,69 +1,93 @@
-#menu {
-    background-color: rgba(0, 0, 0, 0.205);
+body 
+    {
+    height: auto;
+    margin: 0;
+    padding: 0; 
+    }
+#comment 
+    {
+    padding: 5%;
+    }
+#links
+    {
+    margin: auto;
+    text-align: center;
+    }
+#menu 
+    {
+    background-color: rgba(0, 0, 0, 0.200);
     font-size: 50%;
     width:100%;
     padding: 18px;
     height: 2 px;
     display: flex;
     position: fixed;
-}          
-#site 
-{
- background-image: url(imagens/squares.gif);
- background-position: 20%;
- background-size: cover;
- border: none;
- color: whitesmoke;   
- font-family: Comfortaa,Helvetica, Arial;   
-} 
-#principal {
+    }          
+#principal 
+    {
     color: whitesmoke;
     text-align: center;
-}
-#comment {
-    padding: 5%;
-}
-#selfie{
+    }
+#rodapé
+    {
+    background-color: rgba(0, 0, 0, 0.199);    
+    }    
+#selfie
+    {
     box-shadow: 7px 7px 7px rgba(245, 245, 245, 0.267);
     border-radius: 50%;
-}
-#links {
-    margin: auto;
+    }
+#site 
+    {
+    background-image: url(imagens/squares.gif);
+    background-position: 20%;
+    background-size: cover;
+    border: none;
+    color: whitesmoke;   
+    font-family: Comfortaa,Helvetica, Arial;   
+    } 
+#hard-skills 
+    {
+    background-color: rgba(51, 58, 58, 0.438);
+    font-size: 30px;
+    padding-left: 10px;
     text-align: center;
-}
-.link-style  {
+    height: auto;
+    width: 50%;
+    }
+#soft
+    {
+    font-family: Confortaa;  
+    font-size: 30px;      
+    text-align: center;
+    margin-top: -5%;
+    }    
+#soft-skills 
+    {
+    background-color: rgba(37, 37, 51, 0.336);
+    font-family: Oregano;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    padding: 60px 20px;
+    text-align: justify;
+    height: auto;
+    word-spacing: 0.0em;
+    width: 50%;
+    }
+#lista 
+    {
+    display: flex;
+    flex-direction: row;  
+    }
+#python
+    {
+    padding-left: 15px;
+    }
+.link-style  
+    {
     color:#000000;
     background-color: #f4f4f4;
     border-radius: 6px;
     padding: 0.5%;
     text-decoration: none;
-}
-body 
-{
- height: auto;
- margin: 0;
- padding: 0; 
-}
-#hard-skills {
-  background-color: rgba(51, 58, 58, 0.438);
-  width: 50%;
-  padding-left: 10px;
-}
-#soft-skills {
-  background-color: rgba(37, 37, 51, 0.336);
-  font-family: Oregano;
-  font-size: 200%;
-  letter-spacing: 0.05em;
-  word-spacing: 0.0em;
-  width: 50%;
-  padding: 30px 20px;
-  text-align: justify;
-}
-#lista {
-  display: flex;
-  flex-direction: row;  
-  
-}
-#python{
-  padding-left: 15px;
-}
+    }    
