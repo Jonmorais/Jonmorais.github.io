@@ -1,0 +1,47 @@
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.button {
+  border-radius: 10px;
+}
+
+#imagem {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#principal {
+  background-color: rgba(0 , 0 , 0 , 0.826);
+  border-radius: 30px;
+  color: aliceblue;
+  max-width: fit-content;
+  padding: 3%;
+  position: absolute;
+  margin-top: 1%;
+}
+
+#form-add {
+  display: flex;
+  padding-bottom: 3%;
+}
+
+#criar-tarefa {
+  margin-left: 2%;
+}
+
+#texto-tarefa {
+  border-radius: 10px;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
