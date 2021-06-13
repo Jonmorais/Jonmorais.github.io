@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Jon.developer</title> 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.min.css" />
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
     <!-- Fontes do corpo do texto e da parte de soft-skills -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
@@ -13,16 +16,36 @@
 <body>
 <div id="site">     
 <header id="principal">
-    <nav id="menu">
-    <br><br>
-    <h1>Jonathan Morais | Fullstack Web-Developer </h1>
-      <section id="header-links">
-        <a class="link-style" href="https://linktr.ee/Jonmorais" target="_blank"><strong>Redes Sociais</strong></a>
-        <a href="#footer" class="link-style"><strong> Sobre mim</strong></a>
-        <a href="https://github.com/Jonmorais" class="link-style"><strong>Portfolio</strong></a>
-      </section> 
+    <nav class="navbar menu">
+    <div class="div-align">
+        <h4 class="title navbar-brand">Jonathan Morais | Fullstack Web-Developer </h4>
+    </div>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            &#9776 Menu
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item" href="https://linktr.ee/Jonmorais" target="_blank">Redes Sociais</a></li>
+          <li><a class="dropdown-item" href="#footer">Sobre mim</a></li>
+          <li><a class="dropdown-item" href="https://github.com/Jonmorais" target="_blank">Portfolio</a></li>
+        </ul>
+      </div>
+
+      <!-- <select class="dropdown btn btn-secondary">
+          <option value="">
+            <a class="btn btn-secondary dropdown-toggle" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" href="">&#9776 Menu</a>
+          </option>
+          <option value="" href="https://linktr.ee/Jonmorais">
+            <a href="https://linktr.ee/Jonmorais" class="dropdown-item"  target="_blank">Redes Sociais</a>  
+          </option>
+          <option value="">
+            <a href="#footer" class="dropdown-item"> Sobre mim</a>
+          </option>
+          <option value="">
+            <a href="https://github.com/Jonmorais" class="dropdown-item">Portfolio</a>
+          </option>
+      </select>  -->
     </nav>
-    <br><br><br>
     <h3 id=comment>"The Internet is becoming the town square for the global village of tomorrow"  <br><br> Bill Gates
     </h3>
 </header>
@@ -40,29 +63,9 @@
         <img src="imagens/rest.png" alt="Rest logo">       
         <img src="imagens/sql.png" alt="SQL logo">
     </div>
-    <div id = soft-skills>
-        <div id=soft><p>Soft Skills</p></div>
-        <div>
-            <p>Inteligência Emocional -
-            Comunicação - 
-            Resiliência
-            </p>
-        </div><br>
-            <p > 
-                Teamwork -
-                Empatia -    
-                Liderança - 
-                Pontualidade             
-            </p>
-        
-            <!-- <h3 id=comment>Apaixonado por tecnologias, animes, jogos no  geral e rpg.
-                <br><br> Curto programar. Morando atualmente no Rio de Janeiro.
-                </h3> -->
-    </div>
-
 </section>
 <footer #footer>
-    <nav >
+    <nav class="navbar-menu ">
         <img id="selfie" src="imagens/selfie.png" alt="Um homem moreno, com  barba e camiseta branca,sorrindo." width="150 em">
             <br><br><br>
         
