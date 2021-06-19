@@ -5,14 +5,14 @@
 }
 
 .title {
-  color: white;
+  color: #121926;
   font-size: 20px;
   padding: 10px;
 }
 
 .menu {
   align-items: center;
-  background-color: black;
+  background-color: #98a2b4;
   display: flex;
   padding: 5px;
   width: 100%;
@@ -36,7 +36,6 @@ a:hover {
 
 .menu p:hover {
   cursor:default;
-  opacity: 1;
 }
 
 .menu .links {
@@ -45,10 +44,15 @@ a:hover {
 }
 
 .hero-page {
+  align-items: center;
   background-image: url(imagens/squares.gif);
   background-size: cover;
   display: flex;
+  flex-direction: column;
   flex-flow: column wrap;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
 }
 
 #site {
@@ -58,10 +62,14 @@ a:hover {
 }
 
 .link-style {
-  color: #000000;
+  color: #121926;
   background-color: #f4f4f4;
   border-radius: 8px;
   padding: 6px;
   text-decoration: none;
   font-size: 100%;
+}
+
+.image {
+  width: 200px;
 }
