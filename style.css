@@ -1,110 +1,50 @@
-.div-align {
-  display: flex;
-  align-items: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .title {
-  padding: 10px;
+  color: white;
   font-size: 20px;
-}
-
-#comment {
-  padding: 5%;
-}
-
-.dropdown-style {
-  padding: 5px;
-  margin: auto;
-  max-width: 50%;
-}
-
-#header-links {
-  display: flex;
-  justify-content: flex-end;
-  padding: 5px;
-  width: 50%;
-}
-
-#links {
-  margin: auto;
-  text-align: center;
   padding: 10px;
 }
 
 .menu {
-  background-color: rgba(0, 0, 0, 0.2);
+  align-items: center;
+  background-color: black;
   display: flex;
-  font-size: 50%;
-  height: auto;
-  justify-content: flex-start;
   padding: 5px;
   width: 100%;
 }
 
-.button {
-  overflow: hidden;
-  margin-right: 30px;
+.menu p {
+  margin-bottom: 0;
 }
 
-#principal {
-  color: whitesmoke;
-  text-align: center;
-  font-size: 150%;
-  display: inline;
+.menu .links {
+  margin-left: auto;
+  margin-right: 5px;
 }
 
-#selfie-container {
+.hero-page {
+  background-image: url(imagens/squares.gif);
+  background-size: cover;
   display: flex;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-#selfie {
-  box-shadow: 7px 7px 7px rgba(15, 15, 15, 0.267);
-  border-radius: 50%;
-  width: 150px;
+  flex-flow: column wrap;
 }
 
 #site {
-  background-image: url(imagens/squares.gif);
-  background-position: 20%;
-  background-size: cover;
   border: none;
-  color: whitesmoke;
+  color: white;
   font-family: Comfortaa, Helvetica, Arial;
-}
-
-#hard-skills {
-  background-color: rgba(24, 26, 26, 0.438);
-  font-size: 30px;
-  text-align: center;
-  height: auto;
-  margin-top: 20px;
-  padding: 2%;
-  width: 100%;
-}
-
-#lista {
-  display: flex;
-  flex-direction: row;
-}
-
-.image-skills {
-  padding-left: 15px;
-  height: 120px;
 }
 
 .link-style {
   color: #000000;
   background-color: #f4f4f4;
   border-radius: 8px;
-  padding: 2%;
+  padding: 6px;
   text-decoration: none;
-  font-size: 130%;
-}
-
-body {
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
+  font-size: 100%;
 }
