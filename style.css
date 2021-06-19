@@ -18,8 +18,25 @@
   width: 100%;
 }
 
+a {
+  opacity: 0.8;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+a:hover {
+  opacity: 1;
+}
+
 .menu p {
   margin-bottom: 0;
+  opacity: 0.9;
+}
+
+.menu p:hover {
+  cursor:default;
+  opacity: 1;
 }
 
 .menu .links {
