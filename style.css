@@ -1,110 +1,112 @@
-.div-align {
-  display: flex;
-  align-items: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .title {
-  padding: 10px;
+  color: white;
   font-size: 20px;
-}
-
-#comment {
-  padding: 5%;
-}
-
-.dropdown-style {
-  padding: 5px;
-  margin: auto;
-  max-width: 50%;
-}
-
-#header-links {
-  display: flex;
-  justify-content: flex-end;
-  padding: 5px;
-  width: 50%;
-}
-
-#links {
-  margin: auto;
-  text-align: center;
   padding: 10px;
 }
 
 .menu {
-  background-color: rgba(0, 0, 0, 0.2);
+  align-items: center;
+  background-color: #1a272b;
   display: flex;
-  font-size: 50%;
-  height: auto;
-  justify-content: flex-start;
   padding: 5px;
   width: 100%;
 }
 
-.button {
-  overflow: hidden;
-  margin-right: 30px;
+a {
+  opacity: 0.8;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0 10px;
 }
 
-#principal {
-  color: whitesmoke;
-  text-align: center;
-  font-size: 150%;
-  display: inline;
+a:hover {
+  opacity: 1;
 }
 
-#selfie-container {
-  display: flex;
+.menu p {
+  margin-bottom: 0;
+  opacity: 0.9;
+}
+
+.menu p:hover {
+  cursor: default;
+}
+
+.menu .links {
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.hero-page {
   align-items: center;
-  margin-bottom: 15px;
-}
-
-#selfie {
-  box-shadow: 7px 7px 7px rgba(15, 15, 15, 0.267);
-  border-radius: 50%;
-  width: 150px;
+  background-image: url(imagens/squares.gif);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
 }
 
 #site {
-  background-image: url(imagens/squares.gif);
-  background-position: 20%;
-  background-size: cover;
   border: none;
-  color: whitesmoke;
   font-family: Comfortaa, Helvetica, Arial;
 }
 
-#hard-skills {
-  background-color: rgba(24, 26, 26, 0.438);
-  font-size: 30px;
-  text-align: center;
-  height: auto;
-  margin-top: 20px;
-  padding: 2%;
-  width: 100%;
-}
-
-#lista {
-  display: flex;
-  flex-direction: row;
-}
-
-.image-skills {
-  padding-left: 15px;
-  height: 120px;
-}
-
 .link-style {
-  color: #000000;
+  color: #121926;
   background-color: #f4f4f4;
   border-radius: 8px;
-  padding: 2%;
+  padding: 6px;
   text-decoration: none;
-  font-size: 130%;
+  font-size: 100%;
 }
 
-body {
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
+.image {
+  width: 200px;
+}
+
+.skills {
+  display: flex;
+}
+
+.front {
+  background-color: #2a3638;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 50%;
+}
+
+.back {
+  background-color: #262f31;
+  text-align: center;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
+.contact {
+  align-items: center;
+  background-color: #1a272b;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.contact a {
+  width: 10vw;
+}
+
+.contact h2 {
+  color: white;
+  padding: 10px;
 }
