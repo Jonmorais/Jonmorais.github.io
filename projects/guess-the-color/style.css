@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ball {
+  border: 1px solid black;
+  border-radius: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 1%;
+  padding: 5%;
+}
+
+#score-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+#balls-container {
+  display: flex;
+  flex-flow: row;
+  height: auto;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
