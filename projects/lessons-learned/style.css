@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(253, 251, 251);
+  color: rgb(48, 41, 138);
+  font-family: fantasy;
+  font-size: larger;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  margin: 1%;
+  margin-left: 40%;
+  padding: 1%;
+}
+
+#minha_foto {
+  margin-top: 4%;
+  padding: 3%;
+}
+
+#licoes_aprendidas {
+  list-style-position: inside;
+}
+
+#licoes_a_aprender {
+  list-style-position: inside;
+}
+
+#tabela {
+  border: 5px solid black;
+  list-style-position: inside;
+  margin-left: 40%;
+  width: 20%;
+}
+
+#flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.lado-esquerdo {
+  border: 3px solid black;
+}
+
+.lado-direito {
+  border: 3px solid black;
+}

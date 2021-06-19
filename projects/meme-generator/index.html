@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Meme Generator</h1>
+    <div>
+      <p>Texto:</p>
+      <input type="text" id="text-input" maxLength="60"/>
+      <p><label for="file" style="cursor: pointer">Foto: </label></p>
+      <input
+        type="file"
+        name="image"
+        id="meme-insert"
+        onchange="function loadFile(event) {
+          const image = document.querySelector('#meme-image');
+          image.src = URL.createObjectURL(event.target.files[0]);
+        }"
+      />
+      <div id="meme-image-container">
+        <img id="meme-image" class="meme-upload" />
+          <p id="meme-text"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
